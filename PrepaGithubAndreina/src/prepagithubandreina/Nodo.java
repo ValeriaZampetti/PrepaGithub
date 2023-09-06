@@ -11,12 +11,17 @@ package prepagithubandreina;
 public class Nodo {
     
     private Object dato;
-   
+    private Nodo pNext;
+    private int id;
 
     public Nodo(Object dato) {
         this.dato = dato;
-        
+        pNext = null;
+        id=1;
     }
+   
+
+   
 
    
 
