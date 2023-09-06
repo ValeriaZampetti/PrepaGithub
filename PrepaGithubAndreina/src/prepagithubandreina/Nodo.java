@@ -17,21 +17,8 @@ public class Nodo {
         pNext = null;
     }
 
-    public Object getDato() {
-        return dato;
-    }
+   
 
-    public void setDato(Object dato) {
-        this.dato = dato;
-    }
-
-    public Nodo getPnext() {
-        return pNext;
-    }
-
-    public void setPnext(Nodo pnext) {
-        this.pNext = pnext;
-    }
     
     
     
