@@ -13,16 +13,40 @@ public class Nodo {
     private Object dato;
     private Nodo pNext;
     private int id;
+    private int telefono;
 
-    public Nodo(Object dato) {
+
+    public Nodo(Object dato, Object informacion) {
         this.dato = dato;
-        pNext = null;
-        id=1;
+        this.telefono=0424;
+       
+        
+
     }
    
 
    
 
+    /**
+     * @return the dato
+     */
+    public Object getDato() {
+        return dato;
+    }
+
+    /**
+     * @param dato the dato to set
+     */
+    public void setDato(Object dato) {
+        this.dato = dato;
+    }
+
+    /**
+     * @return the info
+     */
+    
+    }
+
    
 
     
@@ -30,4 +54,3 @@ public class Nodo {
     
     
     
-}
