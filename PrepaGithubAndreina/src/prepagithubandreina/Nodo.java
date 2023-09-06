@@ -9,12 +9,13 @@ package prepagithubandreina;
  * @author valeriazampetti
  */
 public class Nodo {
+    
     private Object dato;
-    private Nodo pNext;
+   
 
     public Nodo(Object dato) {
         this.dato = dato;
-        pNext = null;
+        
     }
 
    
